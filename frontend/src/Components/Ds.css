@@ -1,0 +1,84 @@
+.gradient-text {
+    background: linear-gradient(to right, rgb(180, 172, 254), rgb(157, 250, 157));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gradient2-text {
+    background: linear-gradient(to right, rgb(230, 245, 225), rgb(238, 196, 242));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @keyframes floatInFromSide {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes floatOutToSide {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+
+  @keyframes floatInFromSide {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes floatOutToSide {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.modal-fade-in {
+  animation-name: floatInFromSide;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /* Ensures the element stays in place after animation */
+}
+
+.modal-fade-out {
+  animation-name: floatOutToSide;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /* Ensures the element stays in place after animation */
+}
+
+  /* Ds.css */
+.fade-enter {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-enter-active {
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}

@@ -1,0 +1,88 @@
+Last Updated on 12th May 2024 Karan Gangwar
+2100520100035@ietlucknow.ac.in | 952.056.9400 | karangangwar341@gmail.com
+EDUCATION
+IET LUCKNOW
+B.Tech in Computer Science
+and Engineering
+2021-2025 | Lucknow, India
+GPA: 7.67 / 10.0
+S.H.P.S
+May 2020| Haridwar, India
+10th: 92.50 /100
+12th: 80.00 / 100
+LINKS
+Github :// @karangangwar341
+Codechef :// @karangangwar07
+LinkedIn :// @karangangwar
+Behance :// @karangangwar
+COURSEWORK
+UNDERGRADUATE
+Database Management System
+Software Engineering
+Design and Analysis of Algorithms
+Compiler Design
+Operating Systems
+Microprocessors
+Theory of Automata and Formal
+Languages
+Computer Networks
+Machine Learning
+SKILLS
+PROGRAMMING
+Over 5000 lines:
+Java • C++ • JavaScript
+• SQL • Python • HTML
+DEVELOPMENT
+Designing
+Figma • Framer • Canva
+AdobeXD • WordPress
+Libraries and Frameworks:
+ReactJS • Material UI • Tailwind
+• Bootstrap
+SOFT SKILLS
+Adaptability • Creativity
+• Decision-making • Resilience
+• Problem-solving skills • Presentation
+skills • Troubleshooting • Debugging
+PROJECTS
+MZONE | Revolutionary Music App
+February 2024 | IET Lucknow
+• Engineered Mzone, a groundbreaking music application, with Node.js backend,
+Firebase database, and React frontend.
+• Designed sleek and intuitive UI using Figma, enhancing user engagement and
+satisfaction about 60% people preferred Mzone over other players based on
+the visually appealing nature.
+• Played a pivotal role as Frontend Developer and UI Designer, ensuring the
+delivery of top-notch solutions.
+GRIEVEASE | Transparent Grievance Management Portal
+October 2023 | HackIET
+• Reduced the time to report a complaint by over 50% it required less than 2
+minutes to file a complain now .
+• Crafted an intuitive and visually appealing UI using Figma, significantly
+enhancing user interaction and satisfaction.
+• Held a pivotal role as a Frontend Developer and UI Designer, ensuring the
+seamless delivery of high-quality solutions.
+SIGN LANGUAGE READER | Sign Language Detection
+April 2023 | Digital Realm
+• Developed a Python code that accurately detects and translates sign language
+alphabets using the webcam, achieving an accuracy rate of 85%.
+• Employed OpenCV, Mediapipe Keras model, and machine learning techniques,
+resulting in a 20% improvement in detection accuracy compared to previous
+methods.
+• Currently expanding the code’s capabilities to detect entire words and short
+phrases, with a projected 30% increase in translation accuracy upon
+completion.
+ACHIEVEMENTS AND CERTIFICATIONS
+• Successfully solved over 300 DSA problems across various coding platforms.
+• Our team achieved first place at the HackIET Hackathon, surpassing over 50
+submissions with GrievEase..
+• Attained a 3-star rating on CodeChef with a peak rating of 1652.
+• Specialist on codeforces with peak rating of 1402.
+• Completed ”Conduct UX Research and Test Early Concepts” on Coursera as
+part of a 7-course series by Google for UI designing.
+VOLUNTEER EXPERIENCE
+• Active Member at Google Developer Student Clubs, IET Lucknow.
+• Held the position of Branch Mentor at Parmarth College Club, leading and
+guiding a team of 20 junior members in club-related activities, promoting
+effective collaboration and successful project outcomes.
+• Mentor at Kalakriti (The Fine-arts Club), IET Lucknow.

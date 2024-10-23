@@ -1,0 +1,19 @@
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black;
+    margin-top: 40px;
+  }
+  
+  .car {
+    border-radius: 4px;
+    background: red;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .description {
+    transform: rotateX(45deg);
+  }
+  
