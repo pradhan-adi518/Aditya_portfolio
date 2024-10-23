@@ -59,7 +59,7 @@ const Header = () => {
         } w-screen p-2 pb-1`}
       >
         <h1 className="absolute pl-8 pt-2 text-3xl font-semi-bold font-mono">
-          KARAN.
+          ADITYA.
         </h1>
 
         <div className="flex justify-end items-center pr-2 pt-2">

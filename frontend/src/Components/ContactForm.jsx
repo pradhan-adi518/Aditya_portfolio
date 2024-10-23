@@ -2,7 +2,7 @@ import * as React from "react";
 import { AiOutlineMail, AiOutlinePhone, AiOutlineEnvironment, AiOutlineInstagram } from "react-icons/ai";
 import { RiFileDownloadLine } from "react-icons/ri";
 import image from "../assets/contactphoto.png";
-import resume from "../assets/karan_resume.pdf";
+import resume from "../assets/aditya_resume.pdf";
 
 function SocialIcon({ src, alt,url }) {
   return <a href={url} className="hover:scale-105"> <img loading="lazy" src={src} alt={alt} className="shrink-0 aspect-square w-[50px]" />
@@ -10,10 +10,10 @@ function SocialIcon({ src, alt,url }) {
 }
 
 const ContactForm = ({ onClose }) => {
-  const email = "karangangwar341@gmail.com";
-  const phoneNumber = "+919520569400";
+  const email = "adityapradhan518@gmail.com";
+  const phoneNumber = "+919621837303";
   const address = "Lucknow, Uttar Pradesh, India";
-  const instagramLink = "https://instagram.com/the_silent_boy_1101"; 
+  const instagramLink = "https://instagram.com/pradhanaditya518"; 
   const resumePdfPath = resume; // Update this path according to where your resume PDF is located
 
   return (
@@ -93,8 +93,8 @@ function MyComponent() {
   const [isContactFormOpen, setIsContactFormOpen] = React.useState(false);
 
   const socialIcons = [
-    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/ce7a5392200faa7795d7c982290d739a4ea5d3c612c145679fe027eef2dccb8a?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 1", url:"https://instagram.com/the_silent_boy_1101"  },
-      { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/6ca41ebe800be25472bc5e9a4c5d34ecce6e4cf15a807a340e84a6d0744c9b80?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 3", url:"https://www.linkedin.com/in/karan-gangwar-59aa8b225/"  },
+    { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/ce7a5392200faa7795d7c982290d739a4ea5d3c612c145679fe027eef2dccb8a?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 1", url:"https://www.instagram.com/pradhanaditya518/"  },
+      { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/6ca41ebe800be25472bc5e9a4c5d34ecce6e4cf15a807a340e84a6d0744c9b80?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 3", url:"https://www.linkedin.com/in/aditya-kumar-010823227/"  },
   ];
 
   const handleOpenContactForm = () => {

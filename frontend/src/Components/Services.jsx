@@ -16,12 +16,12 @@ function Services() {
       description: "Developing responsive and dynamic web applications using React, Tailwind CSS, Material UI, and Bootstrap for seamless user experiences.",
       readMoreAlt: "Read more about Frontend Development",
     },
-    {
-      imgSrc: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg", // Java logo
-      title: "Java Full Stack Development",
-      description: "Building robust full-stack applications with Java, including backend development, database management, and frontend integration.",
-      readMoreAlt: "Read more about Java Full Stack Development",
-    },
+    // {
+    //   imgSrc: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg", // Java logo
+    //   title: "Java Full Stack Development",
+    //   description: "Building robust full-stack applications with Java, including backend development, database management, and frontend integration.",
+    //   readMoreAlt: "Read more about Java Full Stack Development",
+    // },
     // Add more service items as needed
   ];
 

@@ -4,8 +4,8 @@ import { useInView } from "react-intersection-observer";
 import profilepic from '../assets/avatar.png'
 function SocialMediaLinks() {
   const links = [
-   { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/ce7a5392200faa7795d7c982290d739a4ea5d3c612c145679fe027eef2dccb8a?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 1", url:"https://instagram.com/the_silent_boy_1101"  },
-      { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/6ca41ebe800be25472bc5e9a4c5d34ecce6e4cf15a807a340e84a6d0744c9b80?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 3", url:"https://www.linkedin.com/in/karan-gangwar-59aa8b225/"  },
+   { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/ce7a5392200faa7795d7c982290d739a4ea5d3c612c145679fe027eef2dccb8a?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 1", url:"https://www.instagram.com/pradhanaditya518/"  },
+      { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/6ca41ebe800be25472bc5e9a4c5d34ecce6e4cf15a807a340e84a6d0744c9b80?apiKey=78edfb5432bb454ba45341ffa54eb21f&", alt: "Social Icon 3", url:"https://www.linkedin.com/in/aditya-kumar-010823227/"  },
   ];
 
   return (
@@ -52,7 +52,7 @@ function Header() {
               <div ref={ref} className="text-lg h-96 gradient2-text about-me-section">
                 {startTyping && (
                   <Typewriter
-                    text="Hi, I'm Karan Gangwar, a passionate B.Tech student in Computer Science and Engineering at IET Lucknow. With a knack for turning ideas into reality, I have developed projects like Mzone, GrievEase, and SignLanguageReader. I excel in Java, C++, JavaScript, SQL, Python, and HTML, always striving to enhance my skills. I love crafting intuitive and engaging user experiences using modern frameworks like ReactJS and Tailwind CSS. I thrive on challenges and enjoy problem-solving, ensuring high-quality solutions in every project. Let's collaborate and bring digital dreams to life."
+                    text="Hi, I'm Aditya Kumar, a passionate B.Tech student in Computer Science and Engineering at IET Lucknow. With a knack for turning ideas into reality, I have developed projects like StudyNotion, Netflix clone, VideochatApp, To Do List, Dictionary App, and Weather App. I excel in C++, JavaScript, SQL, Python, and HTML, always striving to enhance my skills. I love crafting intuitive and engaging user experiences using modern frameworks like ReactJS and Tailwind CSS. I thrive on challenges and enjoy problem-solving, ensuring high-quality solutions in every project. Let's collaborate and bring digital dreams to life."
                     textStyle={{ color: 'gray-50', fontSize: '1.1em', lineHeight: '1.6' }}
                     typeSpeed={40}
                     cursor

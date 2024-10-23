@@ -2,77 +2,77 @@ import React, { useState, useEffect, useRef } from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import mzone1 from "../assets/mzone1.png";
-import mzone2 from "../assets/mzone2.png";
-import Grievease1 from "../assets/Grievease1.png";
-import Grievease2 from "../assets/Grievease2.png";
-import koinx1 from "../assets/koinx1.png";
-import koinx2 from "../assets/koinx2.png";
-import chatMitra1 from "../assets/Chatmitra1.png";
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Icons for GitHub and external link
+import todo1 from "../assets/todo1.png";
+import todo2 from "../assets/todo2.png";
+import studynotion1 from "../assets/studynotion1.png";
+import studynotion2 from "../assets/studynotion2.png";
+import dc1 from "../assets/dc1.png";
+import dc2 from "../assets/dc2.png";
+import calculator1 from "../assets/calculator1.png";
+// import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Icons for GitHub and external link
 
-import chatMitra2 from "../assets/Chatmitra2.png";
+import calculator2 from "../assets/calculator2.png";
 
-import movie1 from "../assets/movie1.png";
+// import movie1 from "../assets/movie1.png";
 
-import movie2 from "../assets/movie2.png";
+// import movie2 from "../assets/movie2.png";
 
 import "./Ds.css";
 import Work2 from "./UI";
 const items = [
   {
     id: 1,
-    url: "https://mzone.vercel.app/",
-    github: "https://github.com/karangangwar341/mzone", // Replace with actual GitHub URL
-    title: "Mzone",
-    subtitle: "Revolutionary Music App",
+    url: "https://to-do-list-ivory-mu.vercel.app/",
+    github: "https://github.com/pradhan-adi518/TO-DO_LIST", // Replace with actual GitHub URL
+    title: "To-Do List",
+    subtitle: "Your Tasks, Simplified.",
     description:
-      "Engineered Mzone, a groundbreaking music application, with Node.js backend, Firebase database, and React frontend.",
-    images: [mzone1, mzone2],
+      "Stay organized and boost your productivity with our To-Do List app, built on HTML, CSS,JAVASCRIPTS and React.js for a seamless user experience",
+    images: [todo1, todo2],
   },
   {
     id: 2,
-    url: "https://griev-ease-ten.vercel.app/",
-    github: "https://github.com/karangangwar341/grievease", // Replace with actual GitHub URL
-    title: "GrievEase",
-    subtitle: "Transparent Grievance Management Portal",
+    url: "https://study-notion-pied-six.vercel.app//",
+    github: "https://github.com/pradhan-adi518/study_notion", // Replace with actual GitHub URL
+    title: "Study Notion",
+    subtitle: "Organize Your Learning, Unlock Your Potential",
     description:
-      "Reduced the time to report a complaint by over 50%. Crafted an intuitive UI using Figma.",
-    images: [Grievease1, Grievease2],
+      "Study Notion is a full-stack app that enhances learning with customizable schedules and collaborative notes, built on React, Node.js, ",
+    images: [studynotion1, studynotion2],
   },
   {
     id: 3,
-    url: "https://placeholder.com",
-    github: "https://github.com/yourusername/signlanguage", // Replace with actual GitHub URL
-    title: "SignLanguageReader",
-    subtitle: "Sign Language Detection",
+    url: "https://dictionary-app-opal.vercel.app/",
+    github: "https://github.com/pradhan-adi518/dictionary_-app", // Replace with actual GitHub URL
+    title: "dictionary App",
+    subtitle: "Words at Your Fingertips",
     description:
-      "Developed a Python code to detect and translate sign language alphabets.",
+      "Our dictionary app provides instant access to definitions, synonyms, and usage examples, built on HMTL,CSS and Javascripts for the front end.",
     images: [
-      "https://via.placeholder.com/400x300.png?text=SignLanguageReader+Image1",
-      "https://via.placeholder.com/400x300.png?text=SignLanguageReader+Image2",
+      dc1,
+      dc2,
     ],
   },
   {
     id: 4,
-    url: "https://placeholder.com",
-    github: "https://github.com/yourusername/chatmitra", // Replace with actual GitHub URL
-    title: "ChatMitra",
-    subtitle: "AI-Powered Chatbot",
+    url: "https://simple-calculator-psi-jet.vercel.app/",
+    github: "https://github.com/pradhan-adi518/Simple-Calculator", // Replace with actual GitHub URL
+    title: "Calculator app",
+    subtitle: "Calculations Made Easy",
     description:
-      "Developed ChatMitra, a chatbot app with a noticeboard and infographics.",
-    images: [chatMitra1, chatMitra2],
+      "Our calculator app offers intuitive and powerful mathematical functions, built with HTML,CSS and JAVASCRIPTS for a seamless user interface.",
+    images: [calculator1, calculator2],
   },
-  {
-    id: 5,
-    url: "https://placeholder.com",
-    github: "https://github.com/karangangwar341/moviemania", // Replace with actual GitHub URL
-    title: "MovieMania",
-    subtitle: "Movie Details at your fingertips",
-    description:
-      "MovieMania is a movie web application that displays a list of movies and details.",
-    images: [movie1, movie2],
-  },
+  // {
+  //   id: 5,
+  //   url: "https://placeholder.com",
+  //   github: "https://github.com/karangangwar341/moviemania", // Replace with actual GitHub URL
+  //   title: "MovieMania",
+  //   subtitle: "Movie Details at your fingertips",
+  //   description:
+  //     "MovieMania is a movie web application that displays a list of movies and details.",
+  //   images: [movie1, movie2],
+  // },
 ];
 
 const Work = () => {
