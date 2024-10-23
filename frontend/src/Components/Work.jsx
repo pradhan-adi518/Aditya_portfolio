@@ -9,13 +9,13 @@ import studynotion2 from "../assets/studynotion2.png";
 import dc1 from "../assets/dc1.png";
 import dc2 from "../assets/dc2.png";
 import calculator1 from "../assets/calculator1.png";
-// import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Icons for GitHub and external link
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Icons for GitHub and external link
 
 import calculator2 from "../assets/calculator2.png";
 
-// import movie1 from "../assets/movie1.png";
+import netflix1 from "../assets/netflix1.png";
 
-// import movie2 from "../assets/movie2.png";
+import netflix2 from "../assets/netflix2.png";
 
 import "./Ds.css";
 import Work2 from "./UI";
@@ -63,16 +63,16 @@ const items = [
       "Our calculator app offers intuitive and powerful mathematical functions, built with HTML,CSS and JAVASCRIPTS for a seamless user interface.",
     images: [calculator1, calculator2],
   },
-  // {
-  //   id: 5,
-  //   url: "https://placeholder.com",
-  //   github: "https://github.com/karangangwar341/moviemania", // Replace with actual GitHub URL
-  //   title: "MovieMania",
-  //   subtitle: "Movie Details at your fingertips",
-  //   description:
-  //     "MovieMania is a movie web application that displays a list of movies and details.",
-  //   images: [movie1, movie2],
-  // },
+  {
+    id: 5,
+    url: "https://netflix-clone-five-roan.vercel.app/",
+    github: "https://github.com/pradhan-adi518/Netflix_Clone", // Replace with actual GitHub URL
+    title: "Netflix Clone",
+    subtitle: "Your Movie Library, Reimagined.",
+    description:
+      "Our Netflix clone offers a seamless streaming experience for movies and shows, built with html,css javascript and React for the front end.",
+    images: [netflix1, netflix2],
+  },
 ];
 
 const Work = () => {
